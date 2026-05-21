@@ -1,6 +1,6 @@
 # 🐧 Linux VM & File System Management
 
-This is A hands-on Linux lab completed as part of my Pre-Degree in Cybersecurity at Eduvos. This lab covers setting up Linux virtual machines and managing the file system entirely from the terminal.
+This is A hands-on Linux lab completed as part of my Pre-Degree in Cybersecurity. This lab covers setting up Linux virtual machines and managing the file system entirely from the terminal.
 
 ---
 
