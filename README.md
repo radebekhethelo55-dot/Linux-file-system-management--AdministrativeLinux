@@ -31,18 +31,18 @@ Created two Linux virtual machines using VirtualBox with the following configura
 
 **VM 1 — Zekhethelo (linux2030)**
 
-![VM 1 Setup](1.png)
+![VM 1 Setup](1.jpeg)
 
 **VM 2 — Kylian Mbappe**
 
-![VM 2 Setup](2.png)
+![VM 2 Setup](2.jpeg)
 
 ---
 
 ### 2. VM Installation & Configuration
 VM 1 booted into the Ubuntu installer. User credentials and hostname were configured during setup.
 
-![VM Installation Screen](3.png)
+![VM Installation Screen](3.jpeg)
 
 Once booted, the `whoami` command confirmed the logged-in user. An attempt was made to change the admin display name using `sudo chfn` but failed because the user was not in the sudoers file — a key security feature in Linux.
 
@@ -51,7 +51,7 @@ whoami
 sudo chfn -f "Zekhethelo" Administrator
 ```
 
-![Terminal - whoami and chfn attempt](4.png)
+![Terminal - whoami and chfn attempt](4.jpeg)
 
 ---
 
@@ -65,14 +65,14 @@ ls
 nano Namibia.txt
 ```
 
-![mkdir and directory creation](5.png)
+![mkdir and directory creation](5.jpeg)
 
 ---
 
 ### 4. File Creation with Nano
 Used `nano` to create a text file called `Namibia.txt` and populated it with a list of African animals: oryx, springbok, strandjut, puku, sitatunga, topi, oribi, kudu.
 
-![nano editor with Namibia.txt](6.png)
+![nano editor with Namibia.txt](6.jpeg)
 
 ---
 
@@ -83,7 +83,7 @@ Used `cat` to display the contents of `Namibia.txt` and confirm all animals were
 cat Namibia.txt
 ```
 
-![cat command output](7.png)
+![cat command output](7.jpeg)
 
 ---
 
@@ -94,7 +94,7 @@ Used `sort` to sort the animal list alphabetically. Encountered path errors when
 sort Namibia.txt
 ```
 
-![sort command output](8.png)
+![sort command output](8.jpeg)
 
 ---
 
@@ -106,7 +106,7 @@ mv Namibia.txt Mzansi.txt
 cat Mzansi.txt
 ```
 
-![mv rename and cat verification](9.png)
+![mv rename and cat verification](9.jpeg)
 
 ---
 
@@ -118,7 +118,7 @@ mkdir -p backup
 mv Mzansi.txt Backup/
 ```
 
-![Backup directory move attempts](10.png)
+![Backup directory move attempts](10.jpeg)
 
 ---
 
@@ -129,7 +129,7 @@ Attempted to change file permissions using `chmod 600` on the Backup directory. 
 chmod 600 /absolute/path/to/Backup
 ```
 
-![chmod permission attempts](11.png)
+![chmod permission attempts](11.jpeg)
 
 ---
 
