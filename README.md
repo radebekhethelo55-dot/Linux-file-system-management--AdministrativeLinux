@@ -1,6 +1,6 @@
 # 🐧 Linux VM & File System Management
 
-This is A hands-on Linux lab completed as part of my Pre-Degree in Cybersecurity. This lab covers setting up Ubuntu Linux virtual machines and managing the file system entirely from the terminal. You can download the latest version of this Linux Distribution iso image by searching Ubuntu.com .  i used is Oracle Virtual Box.
+This is A hands-on Linux lab completed as part of my Pre-Degree in Cybersecurity. This lab covers setting up Ubuntu Linux virtual machines and managing the file system entirely from the terminal. You can download the latest version of this Linux Distribution iso image by searching Ubuntu.com . I  used is Oracle Virtual Box.
 
 ---
 
